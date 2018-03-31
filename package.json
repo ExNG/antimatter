@@ -1,0 +1,15 @@
+{
+  "name": "antimatter",
+  "version": "1.0.0",
+  "description": "Electron css framework",
+  "author": "Johann Behr <johannbehr@exng.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExNG/antimatter.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExNG/antimatter/issues"
+  },
+  "homepage": "https://github.com/ExNG/antimatter#readme"
+}
