@@ -1,5 +1,7 @@
 # Antimatter
 
+[![Build Status](https://travis-ci.org/ExNG/antimatter.svg?branch=master)](https://travis-ci.org/ExNG/antimatter)
+
 > Antimatter is a electron css framework
 
 ## Note
