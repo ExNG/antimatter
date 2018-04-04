@@ -1,5 +1,6 @@
 {
-  "name": "antimatter",
+  "name": "antimatterkit",
+  "productName": "Antimatter",
   "version": "1.0.0",
   "description": "Electron css framework",
   "author": "Johann Behr <johannbehr@exng.de>",
@@ -13,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/ExNG/antimatter.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ExNG/antimatter/issues"
   },
