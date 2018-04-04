@@ -4,6 +4,10 @@
 
 > Antimatter is a electron css framework
 
+## Installation
+
+`npm i -S antimatterkit`
+
 ## Note
 
 Antimatter is mostly based on [Photonkit](https://github.com/connors/photon) which hasn't been updated in a long time.
