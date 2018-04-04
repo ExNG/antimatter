@@ -269,7 +269,7 @@ h6 {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  cursor: default;
+  cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -312,40 +312,28 @@ h6 {
   border-bottom-color: #0866dc;
   background-color: #1a82fb; }
   .btn-primary:active {
-    background-color: #3e9bf4;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e9bf4), color-stop(100%, #0469de));
-    background-image: -webkit-linear-gradient(top, #3e9bf4 0%, #0469de 100%);
-    background-image: linear-gradient(to bottom, #3e9bf4 0%, #0469de 100%); }
+    background-color: #0469de; }
 
 .btn-positive {
   border-color: #29a03b;
   border-bottom-color: #248b34;
   background-color: #34c84a; }
   .btn-positive:active {
-    background-color: #34c84a;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #34c84a), color-stop(100%, #248b34));
-    background-image: -webkit-linear-gradient(top, #34c84a 0%, #248b34 100%);
-    background-image: linear-gradient(to bottom, #34c84a 0%, #248b34 100%); }
+    background-color: #29a03b; }
 
 .btn-negative {
   border-color: #fb2f29;
   border-bottom-color: #fb1710;
   background-color: #fc605b; }
   .btn-negative:active {
-    background-color: #fc605b;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc605b), color-stop(100%, #fb1710));
-    background-image: -webkit-linear-gradient(top, #fc605b 0%, #fb1710 100%);
-    background-image: linear-gradient(to bottom, #fc605b 0%, #fb1710 100%); }
+    background-color: #fb2f29; }
 
 .btn-warning {
   border-color: #fcaa0e;
   border-bottom-color: #ee9d02;
   background-color: #fdbc40; }
   .btn-warning:active {
-    background-color: #fdbc40;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdbc40), color-stop(100%, #ee9d02));
-    background-image: -webkit-linear-gradient(top, #fdbc40 0%, #ee9d02 100%);
-    background-image: linear-gradient(to bottom, #fdbc40 0%, #ee9d02 100%); }
+    background-color: #fcaa0e; }
 
 .btn .icon {
   float: left;
@@ -355,7 +343,8 @@ h6 {
   margin-bottom: 1px;
   color: #737475;
   font-size: 14px;
-  line-height: 1; }
+  line-height: 1;
+  cursor: pointer; }
 
 .btn .icon-text {
   margin-right: 5px; }
