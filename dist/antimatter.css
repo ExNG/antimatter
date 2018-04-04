@@ -367,6 +367,9 @@ h6 {
     .btn-group .btn.active {
       z-index: 3; }
 
+.btn-group > .btn:nth-child(1):last-child {
+  border-radius: 4px; }
+
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
