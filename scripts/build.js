@@ -17,6 +17,7 @@ const mkdirSync = function (dirPath) {
 }
 
 // BUILD
+console.log('# Building css')
 var result = sass.render({
   file: inPath,
   outFile: outPath
@@ -26,4 +27,6 @@ var result = sass.render({
   mkdirSync(path.join(outPath, '..'))
 
   fs.writeFileSync(outPath, out.css)
+
+  console.log('--> Build Done.')
 })
