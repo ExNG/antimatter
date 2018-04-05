@@ -11,15 +11,15 @@ table {
 }
 
 thead {
-  background-color: #f5f5f4;
+  background-color: $thead-color;
 }
 
 tbody {
-  background-color: #fff;
+  background-color: $tbody-color;
 }
 
 .table-striped tr:nth-child(even) {
-   background-color: #f5f5f4;
+   background-color: $thead-color;
 }
 
 tr:active,
@@ -30,7 +30,7 @@ tr:active,
 
 thead tr:active {
   color: $gray-color;
-  background-color: #f5f5f4;
+  background-color: $thead-color;
 }
 
 th {
