@@ -32,7 +32,7 @@ $darker-bottom-border-color: #a19fa1 !default;
 $toolbar-border-color: #939293 !default;
 
 // Action colors
-$default-color:  #fff !default;
+$default-color:  rgb(9, 9, 9) !default;
 $positive-color: #34c84a !default;
 $negative-color: #fc605b !default;
 $warning-color: #fdbc40 !default;
@@ -55,3 +55,6 @@ $padding: 10px;
 $padding-mini: 3px;
 $padding-less: 5px;
 $padding-more: 20px;
+
+// Elements
+$body-color: #fff;

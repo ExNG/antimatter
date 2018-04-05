@@ -20,10 +20,11 @@ $line-height-default: 1.6 !default;
 
 // Main colors
 $primary-color: #3b99fc !default;
-$chrome-color:  #fff !default;
+// $chrome-color:  #fff !default;
+$chrome-color:  transparent !default;
 
 // Copy
-$gray-color: #333 !default;
+$gray-color: #fff !default;
 
 // Borders
 $border-color: #ddd !default;
@@ -55,3 +56,6 @@ $padding: 10px;
 $padding-mini: 3px;
 $padding-less: 5px;
 $padding-more: 20px;
+
+// Elements
+$body-color: rgb(100, 100, 100);

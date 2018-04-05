@@ -30,3 +30,22 @@ var result = sass.render({
 
   console.log('--> Build Done.')
 })
+
+// VARIABLES
+var inPathDark = path.join(__dirname, '..', 'src', 'antimatter_dark.scss')
+var outPathDark = path.join(__dirname, '..', 'dist', 'antimatter_dark.css')
+
+// BUILD
+console.log('# Building css')
+var result = sass.render({
+  file: inPathDark,
+  outFile: outPathDark
+}, function (err, out) {
+  if (err) throw err
+
+  mkdirSync(path.join(outPathDark, '..'))
+
+  fs.writeFileSync(outPathDark, out.css)
+
+  console.log('--> Build Done.')
+})
