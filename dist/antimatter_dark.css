@@ -130,7 +130,7 @@ hr {
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #848484; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
@@ -245,7 +245,7 @@ h6 {
   padding-bottom: 20px; }
 
 .sidebar {
-  background-color: #f5f5f4; }
+  background-color: #969696; }
 
 .draggable {
   -webkit-app-region: drag; }
@@ -479,7 +479,7 @@ input[type="checkbox"] {
   font-size: 13px;
   line-height: 1.6;
   background-color: transparent;
-  border: 1px solid #ddd;
+  border: 1px solid #848484;
   border-radius: 4px;
   outline: none; }
   .form-control:focus {
@@ -529,7 +529,7 @@ textarea {
   position: relative;
   overflow-y: auto;
   flex: 1;
-  border-left: 1px solid #ddd; }
+  border-left: 1px solid #848484; }
   .pane:first-child {
     border-left: 0; }
 
@@ -573,7 +573,7 @@ img {
   padding: 10px;
   font-size: 12px;
   color: #414142;
-  border-top: 1px solid #ddd; }
+  border-top: 1px solid #848484; }
   .list-group-item:first-child {
     border-top: 0; }
   .list-group-item.active, .list-group-item.selected {
@@ -607,12 +607,12 @@ img {
   overflow: hidden;
   text-overflow: ellipsis; }
   .nav-group-item:active, .nav-group-item.active {
-    background-color: #dcdfe1; }
+    background-color: #97a0a6; }
   .nav-group-item .icon {
     width: 19px;
     height: 18px;
     float: left;
-    color: #737475;
+    color: #e7e7e7;
     margin-top: -3px;
     margin-right: 7px;
     font-size: 18px;
@@ -1809,8 +1809,8 @@ thead tr:active {
 
 th {
   font-weight: normal;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd; }
+  border-right: 1px solid #848484;
+  border-bottom: 1px solid #848484; }
 
 th,
 td {

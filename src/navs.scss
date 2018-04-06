@@ -17,14 +17,14 @@
 
   &:active,
   &.active {
-    background-color: #dcdfe1;
+    background-color: $nav-item-active;
   }
 
   .icon {
     width: 19px; // Prevents a one pixel cutoff
     height: 18px;
     float: left;
-    color: #737475;
+    color: $nav-item-icon-color;
     margin-top: -3px;
     margin-right: 7px;
     font-size: 18px;
