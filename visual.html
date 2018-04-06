@@ -4,12 +4,24 @@
     <meta charset="utf-8">
     <title>Antimatter test</title>
 
-    <link rel="stylesheet" href="dist/antimatter.css">
+    <script src="node_modules/vue/dist/vue.js" charset="utf-8"></script>
   </head>
   <body>
-    <div class="window">
+    <div class="window" id="app">
+      <link rel="stylesheet" href="dist/antimatter.css" v-if="!darkmode">
+      <link rel="stylesheet" href="dist/antimatter_dark.css" v-else>
+
       <header class="toolbar toolbar-header">
         <h1 class="title">Antimatter preview page</h1>
+
+        <div class="toolbar-actions">
+          <button class="btn btn-default pull-right" @click="darkmode = !darkmode">
+            <span class="icon icon-adjust"></span>
+          </button>
+          <button class="btn btn-default pull-right" @click="darkmode = !darkmode; darkmode = !darkmode">
+            <span class="icon icon-cw"></span>
+          </button>
+        </div>
       </header>
 
       <div class="window-content">
@@ -441,5 +453,14 @@
         <h1 class="title">Sample Footer</h1>
       </footer>
     </div>
+
+    <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        darkmode: false
+      }
+    })
+    </script>
   </body>
 </html>
