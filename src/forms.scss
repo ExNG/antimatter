@@ -5,7 +5,15 @@
 
 input, select, textarea {
   cursor: pointer;
+}
+
+input, textarea {
   color: $input-color;
+}
+
+option {
+  color: black;
+  cursor: pointer;
 }
 
 input::placeholder {

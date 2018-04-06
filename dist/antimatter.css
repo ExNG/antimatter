@@ -450,8 +450,14 @@ h6 {
     margin-right: 4px; }
 
 input, select, textarea {
-  cursor: pointer;
+  cursor: pointer; }
+
+input, textarea {
   color: gray; }
+
+option {
+  color: black;
+  cursor: pointer; }
 
 input::placeholder {
   color: gray; }
