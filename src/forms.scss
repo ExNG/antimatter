@@ -5,6 +5,11 @@
 
 input, select, textarea {
   cursor: pointer;
+  color: $input-color;
+}
+
+input::placeholder {
+  color: $input-color;
 }
 
 input:focus, textarea:focus {
