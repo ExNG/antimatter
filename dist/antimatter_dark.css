@@ -400,11 +400,10 @@ h6 {
 
 .toolbar {
   min-height: 22px;
-  box-shadow: inset 0 1px 0 #f5f4f5;
-  background-color: #e8e6e8;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e6e8), color-stop(100%, #d1cfd1));
-  background-image: -webkit-linear-gradient(top, #e8e6e8 0%, #d1cfd1 100%);
-  background-image: linear-gradient(to bottom, #e8e6e8 0%, #d1cfd1 100%); }
+  background-color: #9f969f;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9f969f), color-stop(100%, #868186));
+  background-image: -webkit-linear-gradient(top, #9f969f 0%, #868186 100%);
+  background-image: linear-gradient(to bottom, #9f969f 0%, #868186 100%); }
   .toolbar:before, .toolbar:after {
     display: table;
     content: " "; }
@@ -412,12 +411,12 @@ h6 {
     clear: both; }
 
 .toolbar-header {
-  border-bottom: 1px solid #c2c0c2; }
+  border-bottom: 1px solid grey; }
   .toolbar-header .title {
     margin-top: 1px; }
 
 .toolbar-footer {
-  border-top: 1px solid #c2c0c2;
+  border-top: 1px solid grey;
   -webkit-app-region: drag; }
 
 .title {
@@ -425,7 +424,7 @@ h6 {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
-  color: #555;
+  color: #fbfbfb;
   cursor: default; }
 
 .toolbar-borderless {
