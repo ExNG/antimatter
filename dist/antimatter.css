@@ -614,9 +614,12 @@ img {
   text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; }
-  .nav-group-item:active, .nav-group-item.active {
+  text-overflow: ellipsis;
+  cursor: pointer; }
+  .nav-group-item:active {
     background-color: #dcdfe1; }
+  .nav-group-item.active {
+    background-color: #ced2d5; }
   .nav-group-item .icon {
     width: 19px;
     height: 18px;

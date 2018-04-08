@@ -14,10 +14,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
 
-  &:active,
-  &.active {
+  &:active {
     background-color: $nav-item-active;
+  }
+
+  &.active {
+    background-color: darken($nav-item-active, 5%);
   }
 
   .icon {
