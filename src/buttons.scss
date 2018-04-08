@@ -44,7 +44,7 @@
   background-color: $default-color;
 
   &:active {
-    background-color: #ddd;
+    background-color: $dark-border-color;
     background-image: none;
   }
 }

@@ -291,10 +291,10 @@ h6 {
 
 .btn-default {
   color: #fff;
-  border-color: #c2c0c2;
+  border-color: #5c5a5c;
   background-color: #969696; }
   .btn-default:active {
-    background-color: #ddd;
+    background-color: #5c5a5c;
     background-image: none; }
 
 .btn-primary,
@@ -384,7 +384,7 @@ h6 {
   border-radius: 0; }
 
 .btn-group .btn + .btn {
-  border-left: 1px solid #c2c0c2; }
+  border-left: 1px solid #5c5a5c; }
 
 .btn-group .btn + .btn.active {
   border-left: 0; }
