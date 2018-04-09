@@ -43,6 +43,10 @@
   border-color: $dark-border-color;
   background-color: $default-color;
 
+  span.icon {
+    color: lighten($gray-color, 20%);
+  }
+
   &:active {
     background-color: $dark-border-color;
     background-image: none;

@@ -293,6 +293,8 @@ h6 {
   color: #fff;
   border-color: #5c5a5c;
   background-color: #969696; }
+  .btn-default span.icon {
+    color: white; }
   .btn-default:active {
     background-color: #5c5a5c;
     background-image: none; }
