@@ -103,6 +103,7 @@
 
 // Set the background-color to set a sidebar back a bit.
 .sidebar {
+  overflow-y: auto;
   background-color: $thead-color;
 }
 
