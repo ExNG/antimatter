@@ -16,8 +16,36 @@ const mkdirSync = function (dirPath) {
   }
 }
 
+const log = function (str = '--------------------') {
+  console.log()
+  console.log(str)
+}
+
+var buildDark = function () {
+  // VARIABLES
+  var inPathDark = path.join(__dirname, '..', 'src', 'antimatter_dark.scss')
+  var outPathDark = path.join(__dirname, '..', 'dist', 'antimatter_dark.css')
+
+  // BUILD
+  log()
+  log('# Building dark css')
+  var result = sass.render({
+    file: inPathDark,
+    outFile: outPathDark
+  }, function (err, out) {
+    if (err) throw err
+
+    mkdirSync(path.join(outPathDark, '..'))
+
+    fs.writeFileSync(outPathDark, out.css)
+
+    log('--> Build Done.')
+  })
+}
+
 // BUILD
-console.log('# Building css')
+log()
+log('# Building css')
 var result = sass.render({
   file: inPath,
   outFile: outPath
@@ -28,24 +56,7 @@ var result = sass.render({
 
   fs.writeFileSync(outPath, out.css)
 
-  console.log('--> Build Done.')
-})
+  log('--> Build Done.')
 
-// VARIABLES
-var inPathDark = path.join(__dirname, '..', 'src', 'antimatter_dark.scss')
-var outPathDark = path.join(__dirname, '..', 'dist', 'antimatter_dark.css')
-
-// BUILD
-console.log('# Building css')
-var result = sass.render({
-  file: inPathDark,
-  outFile: outPathDark
-}, function (err, out) {
-  if (err) throw err
-
-  mkdirSync(path.join(outPathDark, '..'))
-
-  fs.writeFileSync(outPathDark, out.css)
-
-  console.log('--> Build Done.')
+  buildDark()
 })
